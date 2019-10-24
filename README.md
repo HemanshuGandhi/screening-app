@@ -1,40 +1,22 @@
-#  i2emr
+# PHS App
 
-## Installation
-
-### Download i2emr
-1. Press `Clone or Download` in the top right corner, then `Download ZIP`
-
-2. Extract to a convenient location
-
-### Install MeteorJS
+## Quick setup
  1. Install Chocolatey
  [https://chocolatey.org/install](https://chocolatey.org/install)
  
- 2. Install Meteor
+ 1. Install Meteor
  https://www.meteor.com/install
 
-### Additional dependencies
-Open command prompt in the folder and run:
+ 1. Install node/npm
 
-1. Install Material-UI
-```
-npm install @material-ui/core
-```
-2. Install simpl-schema
-```
-npm install simpl-schema
-```
-3. Install vazco/Uniforms
-```
-npm  install uniforms
-npm  install uniforms-bridge-simple-schema
-npm  install uniforms-bridge-simple-schema-2
-npm  install uniforms-material
-```
-## Run
+ 1. Go to `app` folder
 
-Open command prompt in the folder and run:
-```
-meteor
-```
+ 1. Run `npm install`
+
+ 1. Run the app using `meteor`
+
+## Brief History
+The app was inherited from [another screening project](https://github.com/andrelim435/i2emr). 
+The previous developer was relatively new to Web Development + the development timeline for the previous project was quite tight so some implementations are not robust.
+
+The timeline for PHS 2019 was also quite tight so most of the efforts were spent customising forms. A few enhancements were made but there is still room for improvement in terms of the overall structure.
