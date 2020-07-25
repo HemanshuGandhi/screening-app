@@ -9,7 +9,7 @@
 
  1. Install node/npm
 
- 1. Go to `app` folder
+ 1. Go to `i2emr` folder
 
  1. Run `npm install`
 
@@ -19,7 +19,7 @@
 The app was inherited from [another screening project](https://github.com/andrelim435/i2emr). 
 The previous developer was relatively new to Web Development + the development timeline for the previous project was quite tight so some implementations are not best practices.
 
-The timeline for PHS 2019 was also quite tight so most of the efforts were spent customising forms. A few minor enhancements were made but there is still a lot of room for improvement in terms of the overall structure.
+The timeline for PHS 2019 was also quite tight so most of the efforts were spent customising forms. A few minor enhancements were made but there is still a lot of room for improvement in terms of features and structure.
 
 ## Implementation Details
 [MeteorJS](https://www.meteor.com/) is used with React and MongoDB. This was inherited from the previous project. 
@@ -38,3 +38,8 @@ It is designed to be deployed locally on the intranet. This design was adopted f
 Deploying it locally has the following drawbacks:
 1. Manpower - personnel need to be onsite to deploy app and be on standby during screening
 2. Tighter timeline for setup - The app needs to be set up onsite after the WiFi system has been set up.
+
+Follow these instructions:
+1. https://guide.meteor.com/deployment.html#custom-deployment
+2. Find out the version of Node Meteor is using, then install it using [NVM](https://github.com/coreybutler/nvm-windows)
+3. Deploy using [PM2](https://github.com/Unitech/pm2) for multithreading and load balancing.
